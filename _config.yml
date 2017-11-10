@@ -1,2 +1,3 @@
-baseurl: "/"
+baseurl: ""
+# baseurl: "/"
 exclude: ['README.md']

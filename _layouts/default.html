@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="ar">
-	<head>
-		<meta charset="UTF-8">
-		<title>فاست ي لينكس</title>
-	</head>
-	<body>
-		<strong>موقع للروابط السريعة</strong>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="{{site.baseurl}}/index.html">الرئيسية</a></li>
-					<li><a href="{{site.baseurl}}/news.html">الأخبار</a></li>
-				</ul>
-			</nav>
+	{% include head.html %}
+		
+		{% include nav.html %}
 
+		<header class="container-fluid">
+				<h1 class="display-5">موقع فاست</h1>
 		</header>
+		
 		{{content}}
-	</body>
-</html>
+	{% include footer.html %}
