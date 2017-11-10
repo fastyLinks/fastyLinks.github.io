@@ -1,0 +1,1 @@
+# fastyLinks.github.io
